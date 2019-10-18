@@ -12,45 +12,10 @@
 
 </head>
 <body>
-    <div class="nav black">
-    <div class="container white-text" style="width: 80%; height:25px;">
-      <a href="#!" class=" white-text" ><i class="fa fa-car white-text"></i> +234-7035743427 </a> &nbsp;
-      <a href="#!" class=" white-text" ><i class="fa fa-car"></i> contact@nacossogitech.com</a>
-      <a href="#!" class=" white-text" ><i class="fa fa-car"></i> Current time: </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a><i class="fa fa-car"></i> </a></li>
-        <li><a href="badges.html"><i class="fa fa-car"></i></a></li>
-        <li><a href="collapsible.html"><i class="fa fa-car"></i></a></li>
-      </ul>	
-    </div>
 
-    </div>
-
-	
-<div class="nav-fixed">
-  <nav class="grey lighten-4">
-    <div class="container">
-    	<div class="nav-wrapper">
-	       <a href="#" class="brand-logo">NACOSS Ogitech</a>
-	       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-	       <ul class="right hide-on-med-and-down">
-	        <li><a href="#home">Home</a></li>
-	        <li><a href="#student">Students</a></li>
-	        <li><a href="#department">Department</a></li>
-	        <li><a href="#gallery">Gallery</a></li>
-	        <li><a href="#login">Login</a></li>
-	       </ul>		
-	    	</div>
-    </div>
-  </nav>
-</div>
-	       <ul class="sidenav" id="mobile-demo">
-	        <li><a href="#home">Home</a></li>
-	        <li><a href="#student">Students</a></li>
-	        <li><a href="#department">Department</a></li>
-	        <li><a href="#gallery">Gallery</a></li>
-	        <li><a href="#login">Login</a></li>
-	       </ul> 
+<?php
+include('header.php')
+?>
 
 <!-- Slidder -->
 <section class="slider">
@@ -111,13 +76,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12"></div>
-			<h3>We Provide The IT Solutions</h3>
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<h3>We Provide IT Solutions</h3>
+			<p> Computer science is the study of problems, problem-solving, and the solutions that come out of the problem-solving process. Given a problem, a computer scientist’s goal is to develop an algorithm, a step-by-step list of instructions for solving any instance of the problem that might arise. Algorithms are finite processes that if followed will solve the problem. Algorithms are solutions. </p>
 		</div>
 	</div>
 </section>
@@ -129,35 +89,49 @@
 				<div class="card-panel">
 					<i class="material-icons large teal-text">room</i>
 					<h4>Machine Learning</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 ">
 				<div class="card-panel">
 					<i class="material-icons large teal-text">store</i>
 					<h4>Data Science</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>Data science is a "concept to unify statistics, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" with data. It employs techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, and information science.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 ">
 				<div class="card-panel">
 					<i class="material-icons large teal-text">room</i>
 					<h4>Digital Marketting</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>Digital marketing is the marketing of products or services using digital technologies, mainly on the Internet, but also including mobile phones, display advertising,and any other digital medium. Digital marketing channels are systems based on the internet that can create, accelerate, and transmit product value from producer to the terminal consumer by digital networks.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<!-- Mission and Vision -->
+<section class="section section-search green accent-4 white-text center">
+	<div class="container">
+		<div class="row">
+			<div class="col s12"></div>
+			<h3>Nacoss Mission and Vision</h3>
+			<p> Computer science is the study of problems, problem-solving, and the solutions that come out of the problem-solving process. Given a problem, a computer scientist’s goal is to develop an algorithm, a step-by-step list of instructions for solving any instance of the problem that might arise. Algorithms are finite processes that if followed will solve the problem. Algorithms are solutions. </p>
+		</div>
+	</div>
+</section>
+<!-- ########################### -->
+<!-- CONTACT US -->
+<section class="section section-search grey lighten-4 grey-text center">
+	<div class="container">
+		<div class="row">
+			<div class="col s12"></div>
+			<h3> Follow NACOSS Ogitech</h3>
+			<p> follow us on social media </p>
+			<button class="btn-large"> Contact us </button>
+		</div>
+	</div>
+</section>
+<!-- CONTACT -->
 <!-- Gallery -->
 <section class="section section-gallery">
 	<div class="container">
@@ -211,17 +185,12 @@
 
 
 <!-- Slidder -->
-<div class="row">
-	<div class="col s12 m6">
-		
-	</div>
-</div>
-<div class="row">
-	<div class="col s12 m9">
-		feeeddededeefdeef
-	</div>
-	<div class="col s12 m3">News Feed</div>
-</div>
+
+
+
+<?php
+include('footer.php')
+?>
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/jquery.js"></script>
